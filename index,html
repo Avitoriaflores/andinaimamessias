@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Profissionalizante de Maquiagem</title>
+  <link rel="icon" href="https://i.ibb.co/0sCX0sW/Untitled-3.jpg" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #FFFBF6;
+      color: #53161D;
+      text-align: center;
+      padding: 0 5%;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      color: #53161D;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    a {
+      color: #53161D;
+    }
+    .bg-primary {
+      background-color: #FFFBF6;
+    }
+    .bg-secondary {
+      background-color: #FFFBF6;
+    }
+    .text-highlight {
+      color: #53161D;
+      font-weight: bold;
+    }
+    .btn-primary {
+      background-color: #53161D;
+      color: #FFFBF6;
+    }
+    img {
+      box-shadow: none;
+    }
+    .content {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+    footer p {
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body class="bg-secondary">
+  <!-- Hero Image -->
+  <div class="my-8">
+    <img src="https://i.ibb.co/z5wJvjJ/andi.jpg" alt="Curso de Maquiagem" class="mx-auto max-w-xs">
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-secondary text-highlight text-center py-16">
+    <h1 class="text-4xl font-bold">Curso Profissionalizante de Maquiagem</h1>
+    <h2 class="text-2xl font-semibold mt-4">Torne-se uma maquiadora profissional</h2>
+    <p class="mt-4 text-lg">Últimas vagas para iniciar o curso em Janeiro!</p>
+    <p class="mt-2">Curso presencial em Santa Maria com Andinaíma Messias</p>
+    <a href="https://wa.me/555596802951?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20profissionalizante%20de%20maquiadora." class="mt-6 inline-block btn-primary font-bold py-2 px-6 rounded shadow hover:bg-gray-100">Entre em contato pelo WhatsApp</a>
+  </section>
+
+  <!-- O que esperar do curso -->
+  <section id="expectativas" class="bg-secondary py-16">
+    <div class="content">
+      <h2 class="text-3xl font-bold">O que você pode esperar desse curso?</h2>
+      <p class="mt-8">O curso profissionalizante de maquiagem foi idealizado para aquelas pessoas que querem aprender sobre o mundo da maquiagem em sua essência; Desde a história e evolução da maquiagem, bem como técnicas que abrangem diversos nichos, como por exemplo:</p>
+      <ul class="mt-4 space-y-2">
+        <li>• <span class="text-highlight">Técnicas de preparação de pele</span></li>
+        <li>• Compatibilidade de produtos na construção da maquiagem</li>
+        <li>• Noções de colorimetria</li>
+        <li>• Técnicas para Pele madura e pele negra</li>
+        <li>• Uso correto de ferramentas</li>
+        <li><span class="text-highlight">E muito mais!</span></li>
+      </ul>
+      <p class="mt-8"><span class="text-highlight">Tal qual todo trabalho manual e artístico, existem fatores que são de suma importância</span>, como treino, técnica e paciência. Para que a sua experiência e aprendizado sejam completos, além do treinamento teórico, onde você receberá uma <span class="text-highlight">apostila completa e personalizada</span>, também focamos na parte prática através da execução assistida, onde aplicamos as técnicas em modelos com tempo (2 diárias no mínimo), dedicação e solução de dúvidas.</p>
+      <p class="mt-4">Dessa maneira, você estará <span class="text-highlight">preparada para executar as técnicas e aprimorá-las no período pós curso</span>, assumindo a sua forma única de arte e expressão, encontrando a sua maneira de maquiar.</p>
+      <p class="mt-4">A arte de maquiar engloba <span class="text-highlight">diversos conhecimentos, desde química básica à visagismo</span>. Dessa forma, o curso é dividido em diárias, para que você possa se dedicar integralmente aos módulos do curso, absorvendo assim o máximo possível de conhecimento. Esta é uma maneira assertiva de aprendizado para que você sinta segurança na hora de iniciar a prática como maquiadora.</p>
+    </div>
+  </section>
+
+  <!-- Divisão dos módulos -->
+  <section id="modulos" class="bg-white py-16">
+    <div class="content">
+      <h2 class="text-3xl font-bold">Como o curso é dividido?</h2>
+      <div class="grid md:grid-cols-2 gap-8 mt-8">
+        <!-- Módulos Obrigatórios -->
+        <div class="bg-secondary p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-highlight">Módulos Obrigatórios</h3>
+          <ul class="mt-4 space-y-2">
+            <li>História e evolução da maquiagem.</li>
+            <li>Ferramentas, produtos e técnicas essenciais.</li>
+            <li>Preparação de pele e variações.</li>
+            <li>Colorimetria e visagismo.</li>
+            <li>Higiene e biossegurança.</li>
+            <li>Finalização e acabamento da maquiagem.</li>
+          </ul>
+        </div>
+        <!-- Módulos Opcionais -->
+        <div class="bg-secondary p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-highlight">Módulos Opcionais</h3>
+          <ul class="mt-4 space-y-2">
+            <li>Pele madura: Técnicas específicas e cuidados.</li>
+            <li>Pele negra: Colorimetria e valorização.</li>
+            <li>Pele waterproof: Métodos para blindar a maquiagem.</li>
+            <li>Maquiagem para audiovisual: Técnicas para TV/cinema.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Estrutura das aulas -->
+  <section id="estrutura" class="bg-secondary py-16">
+    <div class="content">
+      <h2 class="text-3xl font-bold">A estrutura das aulas</h2>
+      <p class="mt-8">Diária 1: Aula teórica e prática básica com treinamento em bonecas e 1 modelo.</p>
+      <p class="mt-4">Diária 2: Prática avançada com foco em técnicas para olhos e finalizações.</p>
+      <p class="mt-4">Duração:</p>
+      <ul class="mt-4 space-y-2">
+        <li>Módulos obrigatórios: 2 dias (16 horas no total).</li>
+        <li>Cada módulo opcional: 4 horas.</li>
+      </ul>
+      <p class="mt-4">Além disso, você receberá uma apostila personalizada com todo o conteúdo do curso organizado para consulta futura.</p>
+    </div>
+  </section>
+
+  <!-- Sobre a Instrutora -->
+  <section id="sobre" class="container mx-auto py-16 px-4">
+    <div class="content grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-bold">Sobre a Instrutora</h2>
+        <p class="mt-4">Me chamo Andinaíma Messias, tenho 25 anos e trabalho com maquiagem desde 2015. São quase 10 anos de experiência com maquiagem social, automaquiagem, audiovisual e outros tantos nichos que a maquiagem proporciona.</p>
+        <p class="mt-4">Sempre busquei ser uma profissional completa, atualizada e ativa! (Curiosidade: amo maquiar pele madura!)</p>
+      </div>
+      <div>
+        <img src="https://i.ibb.co/C9XfxHX/Untitled-5.jpg" alt="Foto da Instrutora" class="w-full max-w-sm mx-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Investimento -->
+  <section id="investimento" class="bg-white py-16">
+    <div class="content">
+      <h2 class="text-3xl font-bold">Investimento que cabe no bolso</h2>
+      <p class="mt-8">💰 Valor promocional:</p>
+      <ul class="mt-4 space-y-2">
+        <li>Módulos obrigatórios: De R$ 1.800 por R$ 1.350.</li>
+        <li>Módulos opcionais: De R$ 450 por R$ 330 cada.</li>
+        <li>Combo especial: Escolha 2 ou mais módulos opcionais por R$ 300 cada!</li>
+      </ul>
+      <p class="mt-8">💳 Formas de pagamento:</p>
+      <ul class="mt-4 space-y-2">
+        <li>Entrada de 50% + saldo no dia do curso (Pix, dinheiro ou débito).</li>
+        <li>Parcelamento em até 10x no cartão (consulte taxas).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="inscricao" class="bg-secondary text-highlight py-16">
+    <h2 class="text-3xl font-bold">Pronta para começar?</h2>
+    <p class="mt-4">Garanta sua vaga agora mesmo, porque as inscrições são limitadas!</p>
+    <p class="mt-4">📅 Data: Janeiro de 2024</p>
+    <p class="mt-4">📍 Local: Santa Maria</p>
+    <a href="https://wa.me/555596802951?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20profissionalizante%20de%20maquiadora." class="mt-6 inline-block btn-primary font-bold py-2 px-6 rounded shadow hover:bg-gray-100">Inscreva-se agora</a>
+  </section>
+
+  <!-- Final Image -->
+  <div class="my-8">
+    <img src="https://i.ibb.co/fQWVJ8X/Untitled-2.jpg" alt="Curso de Maquiagem" class="mx-auto max-w-xs">
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-secondary py-6">
+    <p>&copy; 2024 Andinaíma Messias. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html
